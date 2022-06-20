@@ -1,0 +1,25 @@
+.planet-img {
+  width: 280px;
+  height: 200px;
+  margin: auto;
+}
+@media (min-width: 768px) {
+  .planet-img {
+    width: 500px;
+    height: 330px;
+  }
+}
+.planet-name {
+  color: #f8fafc;
+}
+.planet-description {
+  color: #f1f5f9;
+}
+@media (min-width: 768px) {
+  .planet-name {
+    font-size: 40px;
+  }
+  .planet-description {
+    font-size: 24px;
+  }
+}
